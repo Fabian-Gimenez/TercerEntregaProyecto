@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laguna Valle Hermoso</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!------------------ Comienza header ------------------>
+  <header>
+    <div class="principal">
+        <h1 class="h1Index">Laguna Valle Hermoso</h1>        
+      <nav class="navHeader">
+        <ul class=nav>
+          <li> <a href="pages/ubicacion.html">Ubicación</a></li>
+          <li> <a href="pages/tarifas.html">Tarifas</a></li>
+          <li> <a href="pages/servicios.html">Servicios</a></li>
+          <li> <a href="pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!------------------ Comienza main ------------------>
+  <main>
+    <section>
+      <div class="carrousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+    <div class="parrafoIndex">
+      <p>
+        Está ubicado a 95 Km. de la Ciudad de Malargüe y a unos 21 Km de ripio, del Valle de Las Leñas, transitable con precaución y sólo en época de primavera, verano. A unos 120 minutos de viaje.
+
+        Es uno de los paisajes más emblemáticos  en la región, no tan solo por su belleza sin igual, sino también, por toda su riqueza arqueológica.
+
+        Este valle cuenta con lagunas, donde se realizan algunas actividades acuáticas, tales como canoa, kayak y pesca. 
+
+        En La costa de Laguna Valle Hermoso podemos encontrar un parador que ofrece servicio de camping, glamping,  restaurante y proveeduría. Además de cabalgatas, alquiler de bicicletas y servicios de guías. 
+
+        También puede disfrutar de una interesante caminata o cabalgata hacia los pozos de aguas termales, una real aventura luego de cruzar tres ríos.
+      </p>
+    </div>
+    <div class="titulosIndex">
+      <h4>Enterate que podés hacer en Valle Hermoso</h4>
+      <h4>¿Estas planeando tus vacaciones? ¡Consultanos!</h4>
+    </div>
+    <div class="ratio ratio-4x3">
+      <iframe src="./images/Viaje Virtual.mp4" title="video" allowfullscreen></iframe>
+    </div>
+  </main>
+ 
+  <!------------------ Comienza footer ------------------>
+  <footer class=footer>
+    <div class="divNav">
+      <nav class="navFooter">
+        <a class=espFooter href="pages/ubicacion.html">Ubicación</a>
+        <a class=espFooter href="pages/tarifas.html">Tarifas</a>
+        <a class=espFooter href="pages/servicios.html">Servicios</a>
+        <a class=espFooter href="pages/contacto.html">Contacto</a>
+      </nav>
+    </div>
+  <!------------------ Logos footer ------------------>
+    <div class="divLogos">
+      <ul class=logosFooter>
+          <li><a href="" target="blank"> <img class="logos" src="images/walogo.svg"> </a></li>
+          <li><a href="" target="blank"> <img class="logos" src="images/fblogo.svg"> </a></li>
+          <li><a href="" target="blank"> <img class="logos" src="images/iglogo.svg"> </a></li>
+          <li><a href="" target="blank"> <img class="logos" src="images/talogo.png"> </a></li>
+      </ul>
+      
+    </div>
+  <!------------------ Form footer ------------------>
+    <div class="formFooter">
+      <h6>¡Suscribite a nuestro newsletter!</h6>
+      <form>
+        <img id="emlogo" src="images/emlogo.svg">
+        <input type="email" name="email" placeholder="Ingresá tu correo">
+        <input type="button" value="Enviar">
+      </form>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!------------------ Termina footer ------------------>
+</body>
+
+</html>
