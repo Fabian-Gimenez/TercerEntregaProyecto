@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 768px) {
+    .principal {
+      margin: 10px auto;
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: 1fr;
+  
+      grid-template-areas:
+      "header header"
+      "section section"
+      "main main"
+      "footer footer";
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px ) {
+      .principal {
+        margin: 15px auto;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;         
+    
+        grid-template-areas:
+        "header"
+        "section"
+        "main"
+        "footer";
+      }
+  }

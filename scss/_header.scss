@@ -1,0 +1,18 @@
+.h1Index{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.nav{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+       
+}
+
+.nav li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
