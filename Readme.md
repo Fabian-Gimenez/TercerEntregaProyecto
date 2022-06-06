@@ -1,4 +1,4 @@
-<img src="images/valle-hermoso-c"
+<img src="images/valle-hermoso-c">
 # Proyecto Final de CoderHouse
 
 En este proyecto se logro crear una pagina de turismo sobre Valle Hermoso.
