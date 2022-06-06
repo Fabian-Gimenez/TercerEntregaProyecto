@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Tiro+Telugu:ital@1&display=swap');
 
 
 *{
@@ -7,26 +7,20 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      background-image: url(../images/fondo1.jpg);
-      background-position: center center;
-      background-attachment: fixed;
-      background-size: cover;
-  
 
-  
-}
 
-.h1Index{
-    font-family:'Tiro Telugu', serif;
-    text-align: center;
+.h2{
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  
 }
 
 
 /* ----------------- Header ----------------- */
 
 .principal{
+    width: 100%;
+      
     background-color: #ccb786;
     display: grid;
     grid-template-columns: 1fr;
@@ -48,6 +42,11 @@ body{
   background-color: #E4D1B9;
 }
 
+.principal .h2{
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+}
+
 .principal img{
   width: 50px;
   height: 50px;
@@ -66,25 +65,39 @@ body{
 
 .principal nav ul li a {
   text-decoration: none;
-  color: #827397;
+  color: #010201;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 2px 2px 2px #B9F8D3;
+  text-shadow: 2px 2px 2px #ffffff7a;
 } 
 
 .principal nav ul li a:hover {
-  color: black;
+  color: #3e76aa;
   transition: 1s;
   text-shadow: none;
 
 }
 
+body{
+  width: 100%;
+  
+  height: 100%;
+  overflow:auto;
+  font-family: 'Prompt', sans-serif;
+  background-color:#e7dbcc;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /* ----------------- Main ----------------- */
 
 .parrafoIndex{
+    font-family: 'Prompt', sans-serif;
     margin-top: 10px;
     text-align: center;
     margin-bottom: 20px;
+    
 
 }
 
@@ -92,13 +105,18 @@ body{
     margin: 30px 0px 10px 0px;
     display: flex;
     justify-content: space-around;
+
 }
 
-.tituloIndex h4{
+.tituloIndex h3{
     
-    padding: 0px 0px;
+    padding: 10px 10px;
 }
 
+.carousel-item img {
+  width:1536px;
+  height:804px;
+}
 
 
 
@@ -111,14 +129,14 @@ body{
 
 .footer ul li a {
   text-decoration: none;
-  color: #827397;
+  color: #010201;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 2px 2px 2px #B9F8D3;
+  text-shadow: 2px 2px 2px #ffffff7a;
 }
 
 .navFooter a:hover {
-  color: black;
+  color: #3e76aa;
   transition: 1s;
   text-shadow: none;
 }
@@ -128,9 +146,6 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.divLogos{
-  float: right;
 
 }
 .navFooter{
@@ -142,12 +157,31 @@ body{
   display: inline;
   padding: 5px 10px;
   text-decoration: none;
-  color: #827397;
+  color: #010201;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 2px 2px 2px #B9F8D3;
+  text-shadow: 2px 2px 2px #ffffff7a;
 }
 
+
+
+
+.formFooter{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#emlogo{
+  height: 30px;
+  width: 30px;
+  position: center;
+  top: 11px;
+}
 
 
 
@@ -155,50 +189,28 @@ body{
 
 .logosFooter{
   margin-right: 5px;
-  display: inline;
+  display: flex;
 
 }
 
 .logosFooter li{
-  display: inline-block;
-  align-content: flex-end;
-  justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 
 .logos{
-  top: 10px;
-  height: 22px;
-  width: 22px;
-  padding: 3px 3px;
-}
-
-/* ----------------- Form footer ----------------- */
-.formFooter{
+  width: 35px;
+  height: 35px;
   
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
 }
-
-#emlogo{
-  height: 30px;
-  width: 30px;
-  position: relative;
-  top: 11px;
-}
-
-/* ----------------- ubicacion.html -----------------  */
-
-
-
 
 /* ----------------- contacto.html -----------------  */
 
 main {
-    font-family: Montserrat;
+    font-family: 'Prompt', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -209,14 +221,14 @@ main {
     justify-content: center;
     padding: 1rem 4rem 2rem 4rem; }
 main .titulo {
-    font-family: Bebas Neue;
+    font-family: 'Prompt', sans-serif;
     font-weight: normal;
     font-size: 32px;
     letter-spacing: 0.05em;
     color: #3e76aa;
     padding-bottom: 2rem;
     text-align: center;
-    text-decoration: underline; }
+    }
 
 main {
     flex-direction: column; }
@@ -339,7 +351,7 @@ main {
         background: #3e76aa;
         border: none;
         border-radius: 15px;
-        font-family: Bebas Neue;
+        font-family: 'Prompt', sans-serif;
         font-size: 20px;
         letter-spacing: 0.03em;
         color: #ffffff;
@@ -367,15 +379,17 @@ main {
   
   @media screen and (max-width: 480px ) {
       .principal {
-        margin: 15px auto;
+        margin: 10px auto;
         display: grid;
         grid-gap: 5px;
         grid-template-columns: 1fr;         
     
         grid-template-areas:
-        "header"
+        "header "
         "section"
         "main"
         "footer";
       }
   }
+
+  

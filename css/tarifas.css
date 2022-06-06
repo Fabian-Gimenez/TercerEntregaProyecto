@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Tiro+Telugu:ital@1&display=swap');
+
 
 
 *{
@@ -32,44 +33,32 @@
   
   .principal nav ul li a {
     text-decoration: none;
-    color: #827397;
+    color: #010201;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #B9F8D3;
+    text-shadow: 2px 2px 2px #ffffff7a;
   } 
   
   .principal nav ul li a:hover {
-    color: black;
+    color: #3e76aa;
     transition: 1s;
     text-shadow: none;
   
   }
-
-  @media (max-width :768px) {
-    .principal{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
-
-@media (max-width :480px) {
-    .principal{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
+  
 
 body{
-    font-family: 'Tiro Telugu', serif;
-    background-image: url(../images/fondo1.jpg);
+    font-family: 'Prompt', sans-serif;
+    
+    background-color:#e7dbcc;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-
+   
 }
 h1{
     text-align: center;
-    text-decoration: underline;
+    margin: 20px;
 }
 h2{
     font-weight: 600;
@@ -128,39 +117,26 @@ p{
     margin-bottom: 30px;
 }
 
-@media (max-width :768px) {
-    .columna{
-        width: 45%;
-        margin-bottom: 10px;
-    }
-}
 
-@media (max-width :480px) {
-    .columna{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
 
 
 
 
   /* ----------------- Footer ----------------- */
-
-.footer ul{
+  .footer ul{
     list-style: none;
   }
   
   .footer ul li a {
     text-decoration: none;
-    color: #827397;
+    color: #010201;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #B9F8D3;
+    text-shadow: 2px 2px 2px #ffffff7a;
   }
   
   .navFooter a:hover {
-    color: black;
+    color: #3e76aa;
     transition: 1s;
     text-shadow: none;
   }
@@ -170,22 +146,24 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    width: 100%;
+  
   }
- 
-.navFooter{
+  .navFooter{
     display: flex;
     left: auto;
-}
-
-.navFooter a{
+  }
+  
+  .navFooter a{
     display: inline;
     padding: 5px 10px;
     text-decoration: none;
-    color: #827397;
+    color: #010201;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #B9F8D3;
-}
+    text-shadow: 2px 2px 2px #ffffff7a;
+  }
 
 /* ----------------- Form footer ----------------- */
 .formFooter{
@@ -195,12 +173,13 @@ p{
     align-items: center;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 #emlogo{
     height: 30px;
     width: 30px;
-    position: relative;
+    position: center;
     top: 11px;
 }
 
@@ -218,30 +197,36 @@ p{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     align-items: flex-end;
 }
 
 
 .logos{
-    top: 10px;
-    height: 22px;
-    width: 22px;
-    padding: 3px 3px;
-}
+    width: 35px;
+    height: 35px;
+    
+  }
 
-
-@media (max-width :768px) {
-    .footer{
-        width: 100%;
-        margin-bottom: 10px;
+  @media (max-width:768px){
+    .columna{
+      width: 100%;
+      margin-bottom: 15px;
     }
-}
-
-@media (max-width :480px) {
-    .footer{
-        width: 100%;
-        margin-bottom: 10px;
+    .header {
+      width: 75%;
     }
-}
+    
+  }
+
+  @media (max-width:480px){
+    .columna{
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .header{
+      width: 100%;
+
+    }
+  }
+
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Tiro+Telugu:ital@1&display=swap');
 
 
 *{
@@ -8,52 +8,51 @@
 }
 
 .principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E4D1B9;
-  }
-  
-  .principal img{
-    width: 50px;
-    height: 50px;
-  
-  }
-  
-  
-  .principal nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  .principal nav ul li {
-    margin: 15px;
-  }
-  
-  .principal nav ul li a {
-    text-decoration: none;
-    color: #827397;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #B9F8D3;
-  } 
-  
-  .principal nav ul li a:hover {
-    color: black;
-    transition: 1s;
-    text-shadow: none;
-  
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E4D1B9;
+}
+
+.principal img{
+  width: 50px;
+  height: 50px;
+
+}
+
+
+.principal nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.principal nav ul li {
+  margin: 15px;
+}
+
+.principal nav ul li a {
+  text-decoration: none;
+  color: #010201;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #ffffff7a;
+} 
+
+.principal nav ul li a:hover {
+  color: #3e76aa;
+  transition: 1s;
+  text-shadow: none;
+
+}
 
 body{
     width: 100%;
     height: 100%;
     overflow:auto;
-    font-family: sans-serif;
+    font-family: 'Prompt', sans-serif;
     letter-spacing: 0.03em;
     line-height: 1.6;
-    font-family: 'Tiro Telugu', serif;
-    background-image: url(../images/fondo1.jpg);
+    background-color:#e7dbcc;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -62,10 +61,10 @@ body{
 .titulo{
     text-align: center;
     font-size: 40px;
-    color: #6a6a6a;
+    color: #010201;
     margin-top: 100px;
     font-weight: 100;
-    font-family: 'Tiro Telugu', serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 .container{
@@ -83,7 +82,7 @@ body{
 
 .container .card{
     width: 330px;
-    height: 430px;
+    height: 440px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -111,6 +110,8 @@ body{
     padding: 0 2rem;
     font-size: 12px;
     font-weight: 200;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
 }
 
 .container.card a{
@@ -122,59 +123,54 @@ body{
 /* ----------------- Footer ----------------- */
 
 .footer ul{
-    list-style: none;
-  }
-  
-  .footer ul li a {
-    text-decoration: none;
-    color: #827397;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #B9F8D3;
-  }
-  
-  .navFooter a:hover {
-    color: black;
-    transition: 1s;
-    text-shadow: none;
-  }
-  
-  .footer{
-    background-color:#E4D1B9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
- 
-.navFooter{
-    display: flex;
-    left: auto;
+  list-style: none;
 }
+
+.footer ul li a {
+  text-decoration: none;
+  color: #010201;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #ffffff7a;
+}
+
+.navFooter a:hover {
+  color: #3e76aa;
+  transition: 1s;
+  text-shadow: none;
+}
+
+.footer{
+  background-color:#E4D1B9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 .navFooter a{
-    display: inline;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #827397;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #B9F8D3;
+  display: inline;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #010201;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #ffffff7a;
 }
-
 /* ----------------- Form footer ----------------- */
 .formFooter{
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
 }
 
 #emlogo{
     height: 30px;
     width: 30px;
-    position: relative;
+    position: center;
     top: 11px;
 }
 
@@ -183,7 +179,7 @@ body{
 /* ----------------- Logos Footer ----------------- */
 
 .logosFooter{
-    margin-right: 5px;
+    align-items: flex-end;
     display: flex;
 
 }
@@ -192,15 +188,13 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     align-items: flex-end;
 }
 
 
 .logos{
-    top: 10px;
-    height: 22px;
-    width: 22px;
-    padding: 3px 3px;
+  width: 35px;
+  height: 35px;
+  
 }
 
